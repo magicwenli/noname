@@ -4740,6 +4740,19 @@
 						frequent:true,
 						restart:true,
 					},
+                    connect_choice_num:{
+                        name:'候选武将数',
+                        init:'7',
+                        restart:true,
+                        item:{
+                            '5':'五',
+                            '6':'六',
+                            '7':'七',
+                            '8':'八',
+                            '9':'九',
+                            '10':'十',
+                        }
+                    },
 					connect_initshow_draw:{
 						name:'首亮奖励',
 						item:{

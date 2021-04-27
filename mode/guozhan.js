@@ -365,13 +365,13 @@ game.import('mode',function(lib,game,ui,get,ai,_status){
 				gz_shibing1jin:['male','qun',0,[],['unseen']],
 				gz_shibing2jin:['female','qun',0,[],['unseen']],
 
-				gz_tangzi:['male','wei',4,['gzxingzhao'],['doublegroup:wei:wu']],
-				gz_mengda:['male','shu',3,['qiuan','liangfan'],['doublegroup:shu:wei']],
-				gz_liuqi:['male','qun',3,['gzwenji','gztunjiang'],['doublegroup:qun:shu']],
-				gz_mifangfushiren:['male','wu',4,['mffengshi'],['doublegroup:wu:shu']],
-				gz_shixie:['male','qun',3,['gzbiluan','gzlixia'],['doublegroup:qun:wu']],
-				gz_zhanglu:['male','qun',3,['gzbushi','gzmidao'],['doublegroup:qun:wei']],
-				gz_re_xushu:['male','shu',4,['zhuhai','gzpozhen','gzjiancai']],
+				// gz_tangzi:['male','wei',4,['gzxingzhao'],['doublegroup:wei:wu']],
+				// gz_mengda:['male','shu',3,['qiuan','liangfan'],['doublegroup:shu:wei']],
+				// gz_liuqi:['male','qun',3,['gzwenji','gztunjiang'],['doublegroup:qun:shu']],
+				// gz_mifangfushiren:['male','wu',4,['mffengshi'],['doublegroup:wu:shu']],
+				// gz_shixie:['male','qun',3,['gzbiluan','gzlixia'],['doublegroup:qun:wu']],
+				// gz_zhanglu:['male','qun',3,['gzbushi','gzmidao'],['doublegroup:qun:wei']],
+				// gz_re_xushu:['male','shu',4,['zhuhai','gzpozhen','gzjiancai']],
 
 				gz_caocao:['male','wei',4,['jianxiong']],
 				gz_simayi:['male','wei',3,['fankui','guicai']],
@@ -455,9 +455,10 @@ game.import('mode',function(lib,game,ui,get,ai,_status){
 				gz_sp_dongzhuo:['male','qun',4,['hengzheng','baoling']],
 				gz_zhangren:['male','qun',4,['chuanxin','fengshi']],
 
-				gz_jun_liubei:['male','shu',4,['zhangwu','jizhao','shouyue','wuhujiangdaqi']],
-				gz_jun_zhangjiao:['male','qun',4,['wuxin','hongfa','wendao','huangjintianbingfu']],
-				gz_jun_sunquan:['male','wu',4,['jiahe','lianzi','jubao','yuanjiangfenghuotu']],
+				// gz_jun_liubei:['male','shu',4,['zhangwu','jizhao','shouyue','wuhujiangdaqi']],
+				// gz_jun_zhangjiao:['male','qun',4,['wuxin','hongfa','wendao','huangjintianbingfu']],
+				// gz_jun_sunquan:['male','wu',4,['jiahe','lianzi','jubao','yuanjiangfenghuotu']],
+                // gz_jun_caocao:['male','wei',4,['jianan','huibian','gzzongyu','wuziliangjiangdao'],[]],
 
 				gz_liqueguosi:['male','qun',4,['gzxiongsuan']],
 				gz_zuoci:['male','qun',3,['yigui','jihun'],['gzskin']],
@@ -468,31 +469,30 @@ game.import('mode',function(lib,game,ui,get,ai,_status){
 				gz_masu:['male','shu',3,['sanyao','gzzhiman'],['gzskin']],
 				gz_shamoke:['male','shu',4,['gzjili'],['gzskin']],
 				
-				gz_lingcao:['male','wu',4,['dujin']],
-				gz_lifeng:['male','shu',3,['tunchu','shuliang']],
-				gz_beimihu:["female","qun",3,["hmkguishu","hmkyuanyu"]],
-				gz_jianggan:["male","wei",3,["weicheng","daoshu"]],
-				gz_huaxin:['male','wei',3,['wanggui','xibing']],
-				gz_luyusheng:['female','wu',3,['zhente','zhiwei']],
+				// gz_lingcao:['male','wu',4,['dujin']],
+				// gz_lifeng:['male','shu',3,['tunchu','shuliang']],
+				// gz_beimihu:["female","qun",3,["hmkguishu","hmkyuanyu"]],
+				// gz_jianggan:["male","wei",3,["weicheng","daoshu"]],
+				// gz_huaxin:['male','wei',3,['wanggui','xibing']],
+				// gz_luyusheng:['female','wu',3,['zhente','zhiwei']],
 				
-				gz_cuimao:['male','wei',3,['gzzhengbi','gzfengying'],[]],
-				gz_yujin:['male','wei',4,['gzjieyue'],['gzskin']],
-				gz_wangping:['male','shu',4,['jianglue'],['gzskin']],
+				// gz_cuimao:['male','wei',3,['gzzhengbi','gzfengying'],[]],
+				// gz_yujin:['male','wei',4,['gzjieyue'],['gzskin']],
+				// gz_wangping:['male','shu',4,['jianglue'],['gzskin']],
 				gz_fazheng:['male','shu',3,['gzxuanhuo','gzenyuan'],['gzskin']],
-				gz_wuguotai:['female','wu',3,['gzbuyi','ganlu'],['gzskin']],
+				// gz_wuguotai:['female','wu',3,['gzbuyi','ganlu'],['gzskin']],
 				gz_lukang:['male','wu',3,['keshou','zhuwei'],['gzskin']],
-				gz_yuanshu:['male','qun',4,['gzweidi','gzyongsi'],['gzskin']],
+				// gz_yuanshu:['male','qun',4,['gzweidi','gzyongsi'],['gzskin']],
 				gz_zhangxiu:['male','qun',4,['gzfudi','congjian'],['gzskin']],
-				gz_jun_caocao:['male','wei',4,['jianan','huibian','gzzongyu','wuziliangjiangdao'],[]],
-				
-				gz_jin_zhangchunhua:['female','jin',3,['huishi','qingleng']],
-				gz_jin_simayi:['male','jin',3,['smyyingshi','xiongzhi','xinquanbian']],
-				gz_jin_wangyuanji:['female','jin',3,['yanxi']],
-				gz_jin_simazhao:['male','jin',3,['choufa','zhaoran']],
-				gz_jin_xiahouhui:['female','jin',3,['jyishi','shiduo']],
-				gz_jin_simashi:['male','jin',3,['yimie','tairan']],
-				gz_duyu:['male','jin',4,['sanchen']],
-				gz_zhanghuyuechen:['male','jin',4,['xijue']],
+
+				// gz_jin_zhangchunhua:['female','jin',3,['huishi','qingleng']],
+				// gz_jin_simayi:['male','jin',3,['smyyingshi','xiongzhi','xinquanbian']],
+				// gz_jin_wangyuanji:['female','jin',3,['yanxi']],
+				// gz_jin_simazhao:['male','jin',3,['choufa','zhaoran']],
+				// gz_jin_xiahouhui:['female','jin',3,['jyishi','shiduo']],
+				// gz_jin_simashi:['male','jin',3,['yimie','tairan']],
+				// gz_duyu:['male','jin',4,['sanchen']],
+				// gz_zhanghuyuechen:['male','jin',4,['xijue']],
 			}
 		},
 		skill:{
@@ -3834,24 +3834,30 @@ game.import('mode',function(lib,game,ui,get,ai,_status){
 						}
 					}
 					"step 1"
-					if(result.bool){
-						player.logSkill('new_fangzhu',result.targets);
-						event.target=result.targets[0]
-						event.target.chooseToDiscard('he').set('ai',function(card){
-							var player=_status.event.player;
-							if(player.isTurnedOver()) return -1;
-							return (player.hp*player.hp)-Math.max(1,get.value(card));
-						}).set('prompt','弃置一张牌并失去一点体力；或选择不弃置，将武将牌翻面并摸'+(player.getDamagedHp())+'张牌。');
-					}
-					else event.finish();
-					"step 2"
-					if(result.bool){
-						event.target.loseHp();
-					}
-					else{
-						event.target.draw(player.getDamagedHp());
-						event.target.turnOver();
-					}
+                    if(result.bool){
+                        player.logSkill('fangzhu',result.targets);
+                        result.targets[0].draw(player.getDamagedHp());
+                        result.targets[0].turnOver();
+                    }
+					// "step 1"
+					// if(result.bool){
+					// 	player.logSkill('new_fangzhu',result.targets);
+					// 	event.target=result.targets[0]
+					// 	event.target.chooseToDiscard('he').set('ai',function(card){
+					// 		var player=_status.event.player;
+					// 		if(player.isTurnedOver()) return -1;
+					// 		return (player.hp*player.hp)-Math.max(1,get.value(card));
+					// 	}).set('prompt','弃置一张牌并失去一点体力；或选择不弃置，将武将牌翻面并摸'+(player.getDamagedHp())+'张牌。');
+					// }
+					// else event.finish();
+					// "step 2"
+					// if(result.bool){
+					// 	event.target.loseHp();
+					// }
+					// else{
+					// 	event.target.draw(player.getDamagedHp());
+					// 	event.target.turnOver();
+					// }
 				},
 				ai:{
 					maixie:true,
@@ -7145,53 +7151,53 @@ game.import('mode',function(lib,game,ui,get,ai,_status){
 					}
 				}
 			},
-			_mingzhi3:{
-				trigger:{player:'phaseBefore'},
-				priority:19.1,
-				forced:true,
-				popup:false,
-				filter:function(event,player){
-					if(player.storage._mingzhi3) return false
-					if(_status.connectMode){
-						if(!lib.configOL.junzhu) return false;
-					}
-					else if(!get.config('junzhu')) return false;
-					return true;
-				},
-				content:function(){
-					'step 0'
-					player.storage._mingzhi3=true;
-					var name=player.name1;
-					if(!player.isUnseen(0)||name.indexOf('gz_')!=0||!lib.junList.contains(name.slice(3))||!lib.character['gz_jun_'+name.slice(3)]) event.finish();
-					else{
-						player.chooseBool("是否将主武将牌替换为君主武将？").ai=function(){return true};
-					}
-					'step 1'
-					if(result.bool){
-						var from=player.name1;
-						var to='gz_jun_'+player.name1.slice(3);
-						event.maxHp=player.maxHp;
-						player.reinit(from,to,4);
-						if(lib.skill[to]) game.trySkillAudio(to,player);
-						player.showCharacter(0);
-						var yelist=[];
-						for(var i=0;i<game.players.length;i++){
-							if(game.players[i].identity=='ye'&&game.players[i]._group==player.group){
-								yelist.push(game.players[i]);
-							}
-						}
-						game.broadcastAll(function(list,group){
-							for(var i=0;i<list.length;i++){
-								list[i].identity=group;
-								list[i].setIdentity();
-							}
-						},yelist,player.group);
-					}
-					else event.finish();
-					'step 2'
-					if(player.maxHp>event.maxHp) player.recover(player.maxHp-event.maxHp);
-				}
-			},
+			// _mingzhi3:{
+			// 	trigger:{player:'phaseBefore'},
+			// 	priority:19.1,
+			// 	forced:true,
+			// 	popup:false,
+			// 	filter:function(event,player){
+			// 		if(player.storage._mingzhi3) return false
+			// 		if(_status.connectMode){
+			// 			if(!lib.configOL.junzhu) return false;
+			// 		}
+			// 		else if(!get.config('junzhu')) return false;
+			// 		return true;
+			// 	},
+			// 	content:function(){
+			// 		'step 0'
+			// 		player.storage._mingzhi3=true;
+			// 		var name=player.name1;
+			// 		if(!player.isUnseen(0)||name.indexOf('gz_')!=0||!lib.junList.contains(name.slice(3))||!lib.character['gz_jun_'+name.slice(3)]) event.finish();
+			// 		else{
+			// 			player.chooseBool("是否将主武将牌替换为君主武将？").ai=function(){return true};
+			// 		}
+			// 		'step 1'
+			// 		if(result.bool){
+			// 			var from=player.name1;
+			// 			var to='gz_jun_'+player.name1.slice(3);
+			// 			event.maxHp=player.maxHp;
+			// 			player.reinit(from,to,4);
+			// 			if(lib.skill[to]) game.trySkillAudio(to,player);
+			// 			player.showCharacter(0);
+			// 			var yelist=[];
+			// 			for(var i=0;i<game.players.length;i++){
+			// 				if(game.players[i].identity=='ye'&&game.players[i]._group==player.group){
+			// 					yelist.push(game.players[i]);
+			// 				}
+			// 			}
+			// 			game.broadcastAll(function(list,group){
+			// 				for(var i=0;i<list.length;i++){
+			// 					list[i].identity=group;
+			// 					list[i].setIdentity();
+			// 				}
+			// 			},yelist,player.group);
+			// 		}
+			// 		else event.finish();
+			// 		'step 2'
+			// 		if(player.maxHp>event.maxHp) player.recover(player.maxHp-event.maxHp);
+			// 	}
+			// },
 			gz_jun_liubei:{audio:true},
 			gz_jun_caocao:{audio:true},
 			gz_jun_sunquan:{audio:true},
@@ -7891,14 +7897,15 @@ game.import('mode',function(lib,game,ui,get,ai,_status){
 					event.list=list.slice(0);
 					var list2=[];
 					var num;
+					// 修改选将人数为8
 					if(lib.configOL.number*6>list.length){
-						num=5;
+						num=8;
 					}
 					else if(lib.configOL.number*7>list.length){
-						num=6;
+						num=8;
 					}
 					else{
-						num=7;
+						num=8;
 					}
 					var filterButton=function(button){
 						if(ui.dialog){
